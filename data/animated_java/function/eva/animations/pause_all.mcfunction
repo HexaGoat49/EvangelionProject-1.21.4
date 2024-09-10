@@ -2,4 +2,10 @@
 execute unless entity @s[type=item_display,tag=aj.eva.root] run return run function animated_java:global/errors/function_not_executed_as_root_entity {'export_namespace': 'eva', 'function_path': 'animated_java:eva/animations/pause_all'}
 tag @s remove aj.eva.animation.idle.playing
 tag @s remove aj.eva.animation.walk.playing
-tag @s remove aj.eva.animation.open_ep.playing
+tag @s remove aj.eva.animation.open.playing
+tag @s remove aj.eva.animation.close.playing
+tag @s remove aj.eva.animation.run.playing
+tag @s remove aj.eva.animation.jump.playing
+tag @s remove aj.eva.animation.jump_r.playing
+tag @s remove aj.eva.animation.fall.playing
+tag @s remove aj.eva.animation.fall_r.playing

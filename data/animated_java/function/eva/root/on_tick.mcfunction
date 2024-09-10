@@ -4,7 +4,13 @@ execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:g
 function #animated_java:eva/as_root/pre_tick
 execute if entity @s[tag=aj.eva.animation.idle.playing] run function animated_java:eva/animations/idle/zzz/on_tick
 execute if entity @s[tag=aj.eva.animation.walk.playing] run function animated_java:eva/animations/walk/zzz/on_tick
-execute if entity @s[tag=aj.eva.animation.open_ep.playing] run function animated_java:eva/animations/open_ep/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.open.playing] run function animated_java:eva/animations/open/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.close.playing] run function animated_java:eva/animations/close/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.run.playing] run function animated_java:eva/animations/run/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.jump.playing] run function animated_java:eva/animations/jump/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.jump_r.playing] run function animated_java:eva/animations/jump_r/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.fall.playing] run function animated_java:eva/animations/fall/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.fall_r.playing] run function animated_java:eva/animations/fall_r/zzz/on_tick
 execute on passengers if entity @s[tag=aj.eva.data] run function animated_java:eva/root/zzz/1
 execute at @s on passengers run tp @s ~ ~ ~ ~ ~
 function #animated_java:eva/as_root/post_tick
