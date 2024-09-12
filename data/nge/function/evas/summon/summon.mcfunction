@@ -14,6 +14,7 @@ execute as @e[tag=aj.eva.bone] run data modify entity @s height set value -48.0f
 # Set ids
 scoreboard players operation @e[tag=nge.main.new] nge.id = @e[tag=nge.root,limit=1,sort=nearest] aj.id
 scoreboard players operation @e[tag=nge.chair] nge.id = @e[tag=nge.root,limit=1,sort=nearest] aj.id
+scoreboard players operation @e[tag=nge.head] nge.id = @e[tag=nge.root,limit=1,sort=nearest] aj.id
 execute as @e[tag=nge.root,limit=1,sort=nearest] run scoreboard players operation @s nge.id = @s aj.id
 
 # Change tag

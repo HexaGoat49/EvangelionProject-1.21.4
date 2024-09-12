@@ -3,7 +3,7 @@ execute unless entity @s[type=item_display,tag=aj.eva.root] run return run funct
 execute on passengers if entity @s[tag=aj.eva.bone.door] run function animated_java:eva/variants/default/zzz/0
 execute on passengers if entity @s[tag=aj.eva.bone.entry_plug] run function animated_java:eva/variants/default/zzz/1
 execute on passengers if entity @s[tag=aj.eva.bone.jaw] run function animated_java:eva/variants/default/zzz/2
-execute on passengers if entity @s[tag=aj.eva.bone.player_head] run function animated_java:eva/variants/default/zzz/3
+execute on passengers if entity @s[tag=aj.eva.bone.head] run function animated_java:eva/variants/default/zzz/3
 execute on passengers if entity @s[tag=aj.eva.bone.offhand] run function animated_java:eva/variants/default/zzz/4
 execute on passengers if entity @s[tag=aj.eva.bone.left_forearm] run function animated_java:eva/variants/default/zzz/5
 execute on passengers if entity @s[tag=aj.eva.bone.left_arm] run function animated_java:eva/variants/default/zzz/6

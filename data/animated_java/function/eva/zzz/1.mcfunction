@@ -16,8 +16,8 @@ execute on vehicle on passengers if entity @s[tag=aj.eva.bone.entry_plug] run fu
 data modify entity @s data.bones.bone_entry_plug set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.bone.jaw] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_jaw set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.eva.bone.player_head] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
-data modify entity @s data.bones.bone_player_head set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.eva.bone.head] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_head set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.bone.offhand] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_offhand set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.bone.left_forearm] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s

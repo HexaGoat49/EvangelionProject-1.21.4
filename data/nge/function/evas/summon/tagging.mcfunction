@@ -5,4 +5,8 @@ tag @e[tag=aj.eva.locator.clicker] add nge.clicker
 tag @e[tag=aj.eva.bone.entry_plug] add nge.entry_plug
 tag @e[tag=aj.eva.bone.door] add nge.entry_plug
 
+tag @e[tag=aj.eva.bone.head] add nge.head
+tag @e[tag=aj.eva.bone.jaw] add nge.head
+tag @e[tag=aj.eva.bone.jaw] add nge.jaw
+
 tag @e[tag=aj.eva.root] add nge.root
