@@ -1,1 +1,0 @@
-execute at @a[tag=nge.pilot] if score @s nge.id = @p nge.id as run function nge:evas/pilo

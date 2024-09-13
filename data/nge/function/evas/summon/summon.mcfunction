@@ -7,7 +7,7 @@ team join noColl @e[tag=nge.main.new]
 
 # Summon and tag AJ model
 execute rotated 0 0 run function animated_java:eva/summon/default
-function nge:evas/summon/tagging
+function nge:evas/summon/tags
 ride @e[tag=nge.root,limit=1,sort=nearest] mount @e[tag=nge.main.new,limit=1,sort=nearest]
 execute as @e[tag=aj.eva.bone] run data modify entity @s height set value -48.0f
 
