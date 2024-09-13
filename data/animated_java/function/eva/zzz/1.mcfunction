@@ -10,6 +10,12 @@ data modify entity @s data.locators.chair.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.locator', 'aj.eva.locator', 'aj.eva.locator.clicker']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.locator,limit=1,distance=..0.01] run function animated_java:eva/zzz/4
 data modify entity @s data.locators.clicker.uuid set from storage aj:uuid main.out
+summon minecraft:item_display ~ ~ ~ {Tags:['aj.new', 'aj.locator', 'aj.eva.locator', 'aj.eva.locator.right_foot']}
+execute as @e[type=minecraft:item_display,tag=aj.new,tag=aj.locator,limit=1,distance=..0.01] run function animated_java:eva/zzz/5
+data modify entity @s data.locators.right_foot.uuid set from storage aj:uuid main.out
+summon minecraft:item_display ~ ~ ~ {Tags:['aj.new', 'aj.locator', 'aj.eva.locator', 'aj.eva.locator.left_foot']}
+execute as @e[type=minecraft:item_display,tag=aj.new,tag=aj.locator,limit=1,distance=..0.01] run function animated_java:eva/zzz/6
+data modify entity @s data.locators.left_foot.uuid set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.bone.door] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_door set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.bone.entry_plug] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s

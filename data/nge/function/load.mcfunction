@@ -5,7 +5,8 @@ team add noColl
 team modify noColl collisionRule never
 
 scoreboard objectives add nge.id dummy
-scoreboard objectives add nge.animId dummy
+scoreboard objectives add nge.stateId dummy
+scoreboard objectives add nge.groundDelay dummy
 # Head rotation
 scoreboard objectives add nge.horRot dummy
 scoreboard objectives add nge.verRot dummy

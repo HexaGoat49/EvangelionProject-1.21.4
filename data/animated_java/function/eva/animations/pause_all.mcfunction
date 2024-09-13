@@ -6,6 +6,6 @@ tag @s remove aj.eva.animation.open.playing
 tag @s remove aj.eva.animation.close.playing
 tag @s remove aj.eva.animation.run.playing
 tag @s remove aj.eva.animation.jump.playing
-tag @s remove aj.eva.animation.jump_r.playing
+tag @s remove aj.eva.animation.jump_run.playing
 tag @s remove aj.eva.animation.fall.playing
-tag @s remove aj.eva.animation.fall_r.playing
+tag @s remove aj.eva.animation.fall_run.playing

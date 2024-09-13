@@ -2,3 +2,5 @@
 function animated_java:eva/remove/zzz/kill with entity @s data.locators.interior
 function animated_java:eva/remove/zzz/kill with entity @s data.locators.chair
 function animated_java:eva/remove/zzz/kill with entity @s data.locators.clicker
+function animated_java:eva/remove/zzz/kill with entity @s data.locators.right_foot
+function animated_java:eva/remove/zzz/kill with entity @s data.locators.left_foot

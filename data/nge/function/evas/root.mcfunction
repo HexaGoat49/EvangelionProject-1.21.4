@@ -1,5 +1,5 @@
 # Apply rotation
-execute at @a[tag=nge.pilot,tag=nge.rotate] if score @s nge.id = @p nge.id store result entity @s Rotation[0] float 1.0 run data get entity @p Rotation[0] 1.0
+execute at @a[tag=nge.pilot,tag=nge.rotate,scores={nge.stateId=1..3}] if score @s nge.id = @p nge.id store result entity @s Rotation[0] float 1.0 run data get entity @p Rotation[0] 1.0
 execute store result score @s nge.horRot run data get entity @s Rotation[0]
 
 # Horizontal cutting

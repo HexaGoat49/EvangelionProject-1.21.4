@@ -2,3 +2,5 @@
 function animated_java:eva/root/zzz/2 with entity @s data.locators.interior
 function animated_java:eva/root/zzz/4 with entity @s data.locators.chair
 function animated_java:eva/root/zzz/6 with entity @s data.locators.clicker
+function animated_java:eva/root/zzz/8 with entity @s data.locators.right_foot
+function animated_java:eva/root/zzz/10 with entity @s data.locators.left_foot

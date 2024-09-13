@@ -1,4 +1,4 @@
-scoreboard players set @s nge.animId 1
+scoreboard players set @s nge.stateId 1
 scoreboard players set @s nge.speed 7
 tag @s remove nge.rotate
 tag @s add nge.isIdle
