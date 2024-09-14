@@ -7,5 +7,4 @@ scoreboard objectives add aj.run.frame dummy
 scoreboard objectives add aj.jump.frame dummy
 scoreboard objectives add aj.jump_run.frame dummy
 scoreboard objectives add aj.fall.frame dummy
-scoreboard objectives add aj.fall_run.frame dummy
 execute as @e[type=item_display,tag=aj.eva.root] unless score @s aj.is_rig_loaded matches 1 at @s run function animated_java:eva/root/on_load

@@ -8,4 +8,3 @@ tag @s remove aj.eva.animation.run.playing
 tag @s remove aj.eva.animation.jump.playing
 tag @s remove aj.eva.animation.jump_run.playing
 tag @s remove aj.eva.animation.fall.playing
-tag @s remove aj.eva.animation.fall_run.playing
