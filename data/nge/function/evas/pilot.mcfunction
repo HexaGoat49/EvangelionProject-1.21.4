@@ -32,3 +32,6 @@ execute at @s[scores={nge.stateId=3}] as @e[tag=nge.main,nbt={OnGround:1b}] if s
 scoreboard players remove @s nge.groundDelay 1
 scoreboard players set @s[scores={nge.groundDelay=..-1}] nge.groundDelay 0
 
+# Gun usage
+execute as @s[scores={nge.stateId=6}] run function nge:evas/actions/gun/main
+

@@ -15,3 +15,6 @@ scoreboard objectives add nge.speed dummy
 scoreboard objectives add nge.m0 dummy
 scoreboard objectives add nge.m1 dummy
 scoreboard objectives add nge.m2 dummy
+# Global
+scoreboard objectives add nge.global dummy
+scoreboard players set nge.G.-1 global -1

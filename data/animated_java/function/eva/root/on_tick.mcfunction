@@ -10,6 +10,8 @@ execute if entity @s[tag=aj.eva.animation.run.playing] run function animated_jav
 execute if entity @s[tag=aj.eva.animation.jump.playing] run function animated_java:eva/animations/jump/zzz/on_tick
 execute if entity @s[tag=aj.eva.animation.jump_run.playing] run function animated_java:eva/animations/jump_run/zzz/on_tick
 execute if entity @s[tag=aj.eva.animation.fall.playing] run function animated_java:eva/animations/fall/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.aim.playing] run function animated_java:eva/animations/aim/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.walk_gun.playing] run function animated_java:eva/animations/walk_gun/zzz/on_tick
 execute on passengers if entity @s[tag=aj.eva.data] run function animated_java:eva/root/zzz/1
 execute at @s on passengers run tp @s ~ ~ ~ ~ ~
 function #animated_java:eva/as_root/post_tick

@@ -1,6 +1,6 @@
 # Executed as root, at pilot position
 # Apply rotation
-execute if entity @p[tag=nge.rotate,scores={nge.stateId=1..3}] store result entity @s Rotation[0] float 1.0 run data get entity @p Rotation[0] 1.0
+execute if entity @p[tag=nge.rotate] store result entity @s Rotation[0] float 1.0 run data get entity @p Rotation[0] 1.0
 execute store result score @s nge.horRot run data get entity @s Rotation[0]
 
 # Horizontal cutting
