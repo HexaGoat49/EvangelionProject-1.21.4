@@ -1,3 +1,8 @@
-tag @s remove nge.isJumpRunning
-scoreboard players set @s nge.stateId 3
-execute at @s as @e[tag=nge.root] if score @s nge.id = @p nge.id run function animated_java:eva/animations/fall_run/tween {to_frame: 0, duration: 0}
+# Executed at player position, as root entity
+execute if entity @p[scores={aj.jump_run.frame=20..}] run function animated_java:eva/animations/fall/tween {to_frame: 0, duration: 0}
+
+scoreboard players set @s aj.jump_run.frame 0
+scoreboard players set @p aj.jump_run.frame 0
+
+scoreboard players operation @p aj.fall.frame = @s aj.fall.frame
+execute as @s[scores={aj.fall.frame=15..}] as @p at @s run function nge:evas/actions/run 
