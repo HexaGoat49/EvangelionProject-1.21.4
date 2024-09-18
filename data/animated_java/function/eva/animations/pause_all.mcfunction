@@ -10,3 +10,5 @@ tag @s remove aj.eva.animation.jump_run.playing
 tag @s remove aj.eva.animation.fall.playing
 tag @s remove aj.eva.animation.aim.playing
 tag @s remove aj.eva.animation.walk_gun.playing
+tag @s remove aj.eva.animation.pre_punch.playing
+tag @s remove aj.eva.animation.punch.playing

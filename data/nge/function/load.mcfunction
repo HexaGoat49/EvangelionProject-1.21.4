@@ -4,10 +4,14 @@ playsound entity.player.levelup master @a ~ ~ ~ 1 1 1
 team add noColl
 team modify noColl collisionRule never
 
+data modify storage nge:rotation pre set value {to_frame: 30, duration: 10}
+data modify storage nge:rotation punch set value {to_frame: 30, duration: 3}
+
 scoreboard objectives add nge.id dummy
 scoreboard objectives add nge.stateId dummy
 scoreboard objectives add nge.groundDelay dummy
 scoreboard objectives add nge.water dummy
+scoreboard objectives add nge.punchTime dummy
 # Head rotation
 scoreboard objectives add nge.horRot dummy
 scoreboard objectives add nge.verRot dummy
