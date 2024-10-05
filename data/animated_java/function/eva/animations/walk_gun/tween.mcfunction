@@ -5,7 +5,6 @@ tag @s add aj.eva.animation.walk_gun.playing
 $scoreboard players set @s aj.tween_duration $(duration)
 $scoreboard players set @s aj.walk_gun.frame $(to_frame)
 scoreboard players operation #this aj.i = @s aj.tween_duration
-scoreboard players add @s aj.tween_duration 1
 tag @s add aj.transforms_only
 execute at @s run function animated_java:eva/animations/walk_gun/zzz/apply_frame {frame: 0}
 $execute at @s run function animated_java:eva/animations/walk_gun/zzz/apply_frame {frame: $(to_frame)}

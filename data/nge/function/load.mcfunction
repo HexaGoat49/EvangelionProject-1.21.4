@@ -24,3 +24,5 @@ scoreboard objectives add nge.global dummy
 scoreboard players set G2 nge.global 2
 scoreboard players set G19 nge.global 19
 scoreboard players set G20 nge.global 20
+scoreboard players set G95 nge.global 95
+

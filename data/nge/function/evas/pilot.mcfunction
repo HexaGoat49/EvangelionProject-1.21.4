@@ -40,3 +40,7 @@ scoreboard players set @s[scores={nge.groundDelay=..-1}] nge.groundDelay 0
 execute as @s[scores={nge.stateId=6}] run function nge:evas/actions/gun/main
 # Punch
 execute as @s[scores={nge.stateId=7}] run function nge:evas/actions/punch/main
+
+# Water particles
+# TEMP
+#execute at @s[predicate=nge:has_motion,tag=nge.inWater] as @e[tag=nge.feet] if score @s nge.id = @p nge.id at @s run particle dust{color:[0.0,0.6,1.0],scale:4} ~ ~ ~ 2 2 2 1 5 force @a
