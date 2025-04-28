@@ -15,12 +15,13 @@ team join noColl @e[tag=nge.hitbox.new]
 execute rotated 0 0 run function animated_java:eva/summon {args: {}}
 execute as @e[tag=aj.global.entity,tag=!nge.eva] run function nge:evas/summon/tags
 execute as @e[tag=aj.eva.bone] run data modify entity @s height set value -60.0f
-# Make AJM ride main entity
+execute as @e[tag=aj.eva.bone] run data modify entity @s view_range set value 16.0f
+# Make AJ model ride main entity
 ride @e[tag=aj.eva.root,limit=1,sort=nearest] mount @e[tag=nge.main.new,limit=1,sort=nearest]
 # Set ids
 scoreboard players operation @e[tag=nge.copyId] nge.id = @e[tag=nge.root,limit=1,sort=nearest] aj.id
 
-# Renew tags
+# Rename tags
 tag @e[tag=nge.main.new] add nge.main
 tag @e[tag=nge.main.new] remove nge.main.new
 
@@ -31,4 +32,4 @@ tag @e[tag=nge.hitbox.new] remove nge.hitbox.new
 # Temp
 execute as @e[tag=nge.root] run function animated_java:eva/animations/open/play
 # Temp
-function nge:evas/ride/ride
+#function nge:evas/ride/ride

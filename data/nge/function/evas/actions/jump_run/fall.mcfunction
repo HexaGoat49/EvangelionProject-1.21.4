@@ -5,4 +5,4 @@ scoreboard players set @s aj.jump_run.frame 0
 scoreboard players set @p aj.jump_run.frame 0
 
 scoreboard players operation @p aj.fall.frame = @s aj.fall.frame
-execute as @s[scores={aj.fall.frame=15..}] as @p at @s run function nge:evas/actions/run 
+execute as @s[scores={aj.fall.frame=15..}] as @p at @s run function nge:evas/actions/run
