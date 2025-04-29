@@ -2,7 +2,10 @@
 kill @e[type=!player]
 
 # Main entity data
-summon item_display ~ ~ ~ {Tags:["nge.main.new","nge.copyId"],Silent:1b,PersistenceRequired:1b}
+summon item_display ~ ~ ~ {Tags:["nge.main.new","nge.copyId"]}
+
+# Pointer and trig entities
+summon item_display ~ ~ ~ {Tags:["nge.pointer","nge.copyId"]}
 
 # Hitbox entity data
 summon giant ~ ~ ~ {Tags:["nge.hitbox.new","nge.copyId"],Silent:1b,PersistenceRequired:1b}
@@ -28,6 +31,7 @@ tag @e[tag=nge.main.new] remove nge.main.new
 tag @e[tag=nge.hitbox.new] add nge.hitbox
 tag @e[tag=nge.hitbox.new] remove nge.hitbox.new
 
+tag @e[tag=nge.copyId] remove nge.copyId
 # Anim
 # Temp
 execute as @e[tag=nge.root] run function animated_java:eva/animations/open/play
