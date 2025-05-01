@@ -30,4 +30,5 @@ scoreboard players set G71 nge.global 71
 scoreboard players set G95 nge.global 95
 scoreboard players set G100 nge.global 100
 
+scoreboard players set nge.Diagonal nge.speed 71
 

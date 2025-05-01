@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 execute if score @s aj.run.frame matches -1 run function animated_java:eva/animations/run/zzz/zzz/0
 execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.run.frame
 function animated_java:eva/animations/run/zzz/apply_frame with storage aj:temp
-execute if score @s aj.run.frame matches 11.. run return run function animated_java:eva/animations/run/zzz/zzz/1
+execute if score @s aj.run.frame matches 19.. run return run function animated_java:eva/animations/run/zzz/zzz/1
 scoreboard players add @s aj.run.frame 1

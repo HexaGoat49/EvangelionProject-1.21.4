@@ -1,3 +1,3 @@
-function animated_java:eva/animations/backwards/tween {to_frame: 12, duration: 10}
+function animated_java:eva/animations/backwards/tween {to_frame: 12, duration: 1}
 
-scoreboard players set @s nge.speed 70
+scoreboard players set @p nge.speed 75

@@ -1,4 +1,6 @@
 ### Set stateId ###
+scoreboard players set @s[scores={nge.stateId=2},predicate=!nge:backward] nge.stateId 1
+scoreboard players set @s[scores={nge.stateId=3},predicate=nge:backward] nge.stateId 1
 scoreboard players set @s[scores={nge.stateId=1..3},predicate=!nge:has_motion] nge.stateId 0
 
 scoreboard players set @s[scores={nge.stateId=0},predicate=nge:has_motion] nge.stateId 1
