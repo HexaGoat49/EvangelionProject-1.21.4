@@ -4,6 +4,7 @@ execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:g
 function #animated_java:eva/as_root/pre_tick
 execute if entity @s[tag=aj.eva.animation.idle.playing] run function animated_java:eva/animations/idle/zzz/on_tick
 execute if entity @s[tag=aj.eva.animation.walk.playing] run function animated_java:eva/animations/walk/zzz/on_tick
+execute if entity @s[tag=aj.eva.animation.backwards.playing] run function animated_java:eva/animations/backwards/zzz/on_tick
 execute if entity @s[tag=aj.eva.animation.open.playing] run function animated_java:eva/animations/open/zzz/on_tick
 execute if entity @s[tag=aj.eva.animation.close.playing] run function animated_java:eva/animations/close/zzz/on_tick
 execute if entity @s[tag=aj.eva.animation.run.playing] run function animated_java:eva/animations/run/zzz/on_tick

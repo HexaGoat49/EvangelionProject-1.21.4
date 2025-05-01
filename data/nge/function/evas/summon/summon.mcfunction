@@ -4,7 +4,7 @@ kill @e[type=!player]
 # Main entity data
 summon item_display ~ ~ ~ {Tags:["nge.main.new","nge.copyId"]}
 
-# Pointer and trig entities
+# Pointer entity
 summon item_display ~ ~ ~ {Tags:["nge.pointer","nge.copyId"]}
 
 # Hitbox entity data
