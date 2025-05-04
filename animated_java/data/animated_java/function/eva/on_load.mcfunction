@@ -6,7 +6,6 @@ scoreboard objectives add aj.open.frame dummy
 scoreboard objectives add aj.close.frame dummy
 scoreboard objectives add aj.run.frame dummy
 scoreboard objectives add aj.jump.frame dummy
-scoreboard objectives add aj.jump_run.frame dummy
 scoreboard objectives add aj.fall.frame dummy
 scoreboard objectives add aj.aim.frame dummy
 scoreboard objectives add aj.walk_gun.frame dummy

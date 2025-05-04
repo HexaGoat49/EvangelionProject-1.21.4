@@ -3,6 +3,9 @@ function animated_java:global/internal/gu/convert_uuid_array_to_string with enti
 data modify entity @s data.bones.data_data set from storage aj:uuid main.out
 summon minecraft:item_display ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.eva.locator', 'aj.eva.locator']}
 execute as @e[type=minecraft:item_display,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:eva/zzz/2
+data modify entity @s data.locators.chair.uuid set from storage aj:uuid main.out
+summon minecraft:item_display ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.eva.locator', 'aj.eva.locator']}
+execute as @e[type=minecraft:item_display,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:eva/zzz/3
 data modify entity @s data.locators.floor.uuid set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.node.right_foot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_right_foot set from storage aj:uuid main.out
@@ -20,6 +23,10 @@ execute on vehicle on passengers if entity @s[tag=aj.eva.node.torso] run functio
 data modify entity @s data.bones.bone_torso set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.node.door] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_door set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.eva.node.chair1] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_chair1 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.eva.node.interior] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_interior set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.node.entry_plug] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_entry_plug set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.eva.node.jaw] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
