@@ -13,7 +13,9 @@ scoreboard objectives add nge.clonedId dummy
 scoreboard objectives add nge.groundDelay dummy
 scoreboard objectives add nge.water dummy
 scoreboard objectives add nge.punchTime dummy
+# Speed
 scoreboard objectives add nge.speed dummy
+scoreboard players set nge.diagonal nge.speed 71
 # Position
 scoreboard objectives add nge.x dummy
 scoreboard objectives add nge.y dummy
@@ -30,5 +32,5 @@ scoreboard players set G71 nge.global 71
 scoreboard players set G95 nge.global 95
 scoreboard players set G100 nge.global 100
 
-scoreboard players set nge.Diagonal nge.speed 71
+
 

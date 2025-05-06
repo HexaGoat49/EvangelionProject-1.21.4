@@ -1,0 +1,1 @@
+function animated_java:eva/animations/jump/tween {to_frame: 0, duration: 1}
